@@ -1,3 +1,5 @@
+Project is based on based on https://github.com/tmurakam/cashflow/blob/0a01ac9e0350dfb04979986444244f8daf4cb5a8/android/convertStrings.rb
+
 1. Download all iOS strings and name them according to its language
    eg. Localizable(ch).strings, Localizable(en).strings, ..
    () and the language are important as ch, en, ..
