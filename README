@@ -1,0 +1,14 @@
+1. Download all iOS strings and name them according to its language
+   eg. Localizable(ch).strings, Localizable(en).strings, ..
+   () and the language are important as ch, en, ..
+   will be the name of the directory in which the generated strings.xml goes.
+
+2. Put all the re-named iOS string files in the directory 'strings'
+
+3. Go to Terminal and cd to where `string_converter_file.rb` and `string_converter.rb` are.
+
+4. Type in the command `ruby string_converter_file.rb` and voila!
+
+5. You'll see a new directory named 'results' where your `string_converter_file.rb` is.
+
+## Encoding should be UTF-8 or you’ll get an argument error.
